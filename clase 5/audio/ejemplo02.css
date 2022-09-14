@@ -1,0 +1,14 @@
+/*
+font-family: 'Ms Madi', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+h2{
+    color: red;
+    font-family: 'Ms Madi', cursive;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+}
