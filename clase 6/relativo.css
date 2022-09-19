@@ -12,6 +12,9 @@
     width: 90%;
     margin: 0px auto 20px ;
     height: 150px;
+    position: relative;
+    top: 50px;
+    left: 50px;
     
 }
 
