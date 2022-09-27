@@ -28,7 +28,30 @@ nav ul{
     padding: 0;
     display: flex;
 }
-nav li{
+nav ul li{
     flex-grow: 1;
     
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: #4c76a5;
+    
+}
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+footer{
+    background-color: #ccc;
+    text-align: center;
+    padding: 40px 0;
+}
+.holder{
+    max-width: 960px;
 }
