@@ -8,6 +8,7 @@ body{
 
 header{
     background-color: #2e64a1;
+    padding: 16px;
 }
 
 header h1{
@@ -20,6 +21,7 @@ header h1{
 }
 nav{
     background-color: #6da9ed;
+    margin-bottom: 20px;
 }
 
 nav ul{
@@ -51,7 +53,84 @@ footer{
     background-color: #ccc;
     text-align: center;
     padding: 40px 0;
+    margin-top: 20px;
 }
 .holder{
     max-width: 960px; 
+    margin: 0 auto;
+}
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+}
+.Bienvenidos {
+    width: 75%;
+    padding-right: 16px;
+   /* background-color: yellow*/
+}
+.Testimonios{
+    width: 25%;
+    /*background-color: lightcoral;*/
+}
+.columnas{
+    display: flex;
+}
+.Testimonio{
+    background-color: #ccc;
+    padding: 16px; 
+}
+.Testimonio .cita{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+
+}
+.Testimonio .autor{
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+}
+
+.historia p{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.persona img{
+    border-radius: 50%;
+    max-width: 50%;
+    box-shadow: 0 0 5px black;
+    margin-top: 13px 0 16px;
+}
+.persona h5,
+.persona h6{
+    color: #2e64a1;
+    font-weight: normal;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 16px;
+}
+.persona h6{
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 12px;
+    line-height: 16px;
 }
