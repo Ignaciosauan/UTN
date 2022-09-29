@@ -134,3 +134,29 @@ h2{
     font-size: 12px;
     line-height: 16px;
 }
+
+.servicio{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 16px 0;
+    padding: 16px;
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 8px;
+}
+.servicio img{
+    max-width: 225px;
+    display: block;
+    border-radius: 15px;
+}
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
