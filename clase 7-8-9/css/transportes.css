@@ -166,6 +166,7 @@ h2{
 }
 .contacto section{
     width: 100%;
+
 }
 .datos p{
 font-size: 14px;
@@ -175,11 +176,13 @@ font-size: 14px;
 }
 .formulario p{
     display: flex;
+    
 }
 .formulario p label{
   min-width: 80px;
   display: flex;
   align-items: center;
+  
   
 }
 .formulario p input,
@@ -190,8 +193,21 @@ font-size: 14px;
     border: 1px solid #999;
     font-size: 14px;
     padding: 6px;
+    margin: 0;
+   
 }
 .formulario textarea{
     resize: none;
     height: 150px;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+.formulario input [type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px gray;
+    color: white;
+    font-size: 16px;
+    width: auto;
 }
