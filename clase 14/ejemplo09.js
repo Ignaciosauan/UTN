@@ -7,6 +7,7 @@ function validarForm(){
     const passwordvalido = validarLargo(document.form1.text1.value,5);
 
     const resultado = nombrevalido && passwordvalido ;
+    
     if(resultado){
         alert('Es valido')
     } else{
